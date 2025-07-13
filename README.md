@@ -1,6 +1,6 @@
 # userChrome.css for Small Firefox Tabs
 
-This is just a tiny userChrome.css file that makes a tiny Firefox tabs. It completely eliminates tab scrolling, especially annoying while exiting fullscreen mode.
+This is just a tiny userChrome.css file that makes tiny Firefox tabs. It completely eliminates tab scrolling, especially annoying while exiting fullscreen mode.
 
 ![Screenshot](/readme_img/screenshot.png)
 

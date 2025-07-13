@@ -1,0 +1,33 @@
+/*
+ * Reduces minimal tab width and completely eliminates tab scrolling.
+ *
+ * Tab close button is visible only on active tab and only on hover.
+ *
+ * Contributor(s): noisedsn
+ */
+ 
+#tabbrowser-tabs {
+  margin-inline-start: var(--tab-block-margin);
+}
+
+.tabbrowser-tab {
+  min-width: initial !important;
+  padding: 0 !important;
+}
+
+.tab-content {
+  overflow: hidden !important;
+  padding: 0 min(25%, var(--tab-inline-padding)) !important;
+}
+
+.tab-close-button {
+  position: absolute;
+  right: min(25%, var(--tab-inline-padding));
+  display: none;
+}
+
+.tab-content:hover .tab-close-button {
+  display: block;
+  background-color: var(--tab-selected-bgcolor) !important;
+  background-color: var(--toolbox-bgcolor-inactive) !important;
+}
